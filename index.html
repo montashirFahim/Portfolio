@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="problem-solving.html">CP</a>
+      <a href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, Myself</h3>
+      <h1>A. S. M. Montashir Fahim</h1>
+      <h3><span>I'm a Competetive Programmer & an aspiring Software Engineer</span></h3>
+      <div class="social-media">
+        <a href="https://www.facebook.com/badboy.montasir.9/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCBBNQWjGMNlfhrSZNSSJPCgPglPcrNhFcgfxhCFJvtnPRkKvnHCqKfwkmGwvrVzqfwbmL"><i class="fa-brands fa-inbox"></i></a>
+        <a href="https://www.linkedin.com/in/montashir-fahim/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/montashirFahim?tab=repositories"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.researchgate.net/profile/Muntasir-Fahim-2?ev=hdr_xprf"><i class="fa-brands fa-researchgate"></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/10J7-Zejn37qVQ_C2yYlGD0MiDRPvGBuy/view?usp=sharing" class="btn">Download CV</a>
+
+      <nav class="navbar-home">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="home-img">
+      <img src="../ASSETS/PHOTOS/HOME/IMG_8522.jpg">
+    </div>
+  </section>
+
+  <!-- Design About Section -->
+  <section class="about" id="about">
+    <h1 class="heading">ABOUT</h1> <!-- stays at top -->
+
+    <div class="about-container"> <!-- new wrapper for flex -->
+      <div class="about-img">
+        <img src="../ASSETS/PHOTOS/HOME/PASSPORT.jpg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>Competetive Programmer,</h2>
+        <h2>Aspiring Software Engineer,</h2>
+        <h2>Research Background on Time-Series Forecasting, NLP & Image Recognition.</h2>
+        <p>I am a fresh Computer Science & Engineering graduate from Rajshahi University of Engineering & Technology with good experience in problem-solving, competitive programming, and deep learning. I like to learn and work with new technologies.</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill Section -->
+  <section class="skills" id="skills">
+    <h1 class="heading">Technical <span>Skills</span></h1>
+    <div class="skill-list">
+      <ul>
+        <li><span>Tools & Platforms:</span> Git, Github & Node.js.</li>
+        <li>Solved over <span>2000</span> algorithmic problems.</li>
+        <li><span>Datsbase:</span> MySQL, PostgreSQL & MongoDB.</li>
+        <li>Proficient in <span>Algorithms</span>,<span> Data Structures</span>, <span>Number Theory</span> & <span>Deep Learning</span>.</li>
+        <li><span>Programming-Languages:</span> C, C++, Python, Java, HTML, CSS, JavaScript & Dart.</li>
+        <li><span>Frameworks/Libraries:</span> Flutter, React.js, Redux, Tailwind CSS, Express.js, Django, Keras, TensorFlow & PyTorch.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+   <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+  <form action="#">
+    <div class="input-box">
+      <input type="text" name="fullname" placeholder="Full Name">
+      <input type="email" name="email" placeholder="Email Address">
+    </div>
+
+    <div class="input-box">
+      <input type="tel" name="mobile" placeholder="Mobile Number">
+      <input type="text" name="subject" placeholder="Email Subject">
+    </div>
+
+    <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+   </section>
+
+   <!-- footer Design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by @montashirfahim | All Rights Reserved</p>
+        <p>For Contact montashirfahim25@gmail.com</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+  <script src="../JS/script.js"></script>
+</body>
+</html>
